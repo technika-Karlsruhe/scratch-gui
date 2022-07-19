@@ -1,6 +1,11 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import ftduinoIconURL from './ftduino/ftduino.png';
+import ftduinoInsetIconURL from './ftduino/ftduino-small.svg';
+import ftduinoConnectionIconURL from './ftduino/ftduino-illustration.svg';
+import ftduinoConnectionSmallIconURL from './ftduino/ftduino-small.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -47,6 +52,31 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+	name: 'ftDuino',
+	extensionId: 'ftduino',
+        collaborator: 'Till Harbaum\nhttp://ftduino.de',
+        iconURL: ftduinoIconURL,
+        insetIconURL: ftduinoInsetIconURL,
+        useAutoScan: false,
+        description: (
+            <FormattedMessage
+                defaultMessage="Control fischertechnik models."
+                description="Description for the 'ftDuino' extension"
+                id="gui.extension.ftduino.description"
+            />
+        ),
+        connectionIconURL: ftduinoConnectionIconURL,
+	connectionSmallIconURL: ftduinoConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting ftDuino"
+                description="Message to help people connect to their ftDuino."
+                id="gui.extension.ftduino.connectingMessage"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
