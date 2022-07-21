@@ -1,6 +1,11 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import ftIconURL from './ft/ft.png';
+import ftInsetIconURL from './ft/ft-small.svg';
+import ftConnectionIconURL from './ft/ft-illustration.svg';
+import ftConnectionSmallIconURL from './ft/ft-small.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -47,6 +52,36 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: 'fischertechnik',
+        extensionId: 'ft',
+        collaborator: '',
+        iconURL: ftIconURL,
+        insetIconURL: ftInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with fischertechnik."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.ft.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: ftConnectionIconURL,
+        connectionSmallIconURL: ftConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.ft.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
     {
         name: (
             <FormattedMessage
