@@ -55,7 +55,7 @@ export default [
     {
         name: 'fischertechnik',
         extensionId: 'ft',
-        collaborator: '',
+        collaborator: 'technika',
         iconURL: ftIconURL,
         insetIconURL: ftInsetIconURL,
         description: (
