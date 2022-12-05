@@ -97,3 +97,13 @@
     min-width: auto;
     min-height: auto;
 }
+
+/* ftscratch firefox fix: entfernt vertikalen Scrollbalken für die überlange Bezeichnung: fischertechnik */
+
+.blocks :global(.scratchCategoryMenuItem) {
+  padding: 0.375rem 0px 0px;
+}
+
+.blocks :global(.scratchCategoryMenuItemLabel) {
+  overflow: hidden;
+}
