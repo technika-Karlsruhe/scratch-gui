@@ -53,14 +53,14 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
     {
-        name: 'fischertechnik',
+        name: 'Bt-Smart',
         extensionId: 'ft',
         collaborator: 'technika',
         iconURL: ftIconURL,
         insetIconURL: ftInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Connect your projects with fischertechnik."
+                defaultMessage="Connect your projects with the bt-smart."
                 description="Description for the 'fischertechnik' extension"
                 id="gui.extension.ft.description"
             />
