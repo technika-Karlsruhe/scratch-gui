@@ -10,9 +10,6 @@
     "url": "https://github.com/LLK/scratch-gui.git"
   },
   "main": "./dist/scratch-gui.js",
-  "config": {
-    "port": 8601
-  },
   "scripts": {
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && npm run clean && webpack --colors --bail",
     "clean": "rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist",
@@ -30,6 +27,7 @@
     "watch": "webpack --colors --watch"
   },
   "config": {
+    "port": 8601,
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
