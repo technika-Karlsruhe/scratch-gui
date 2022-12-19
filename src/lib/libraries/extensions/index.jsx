@@ -1,10 +1,10 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import ftIconURL from './ft/ft.png';
-import ftInsetIconURL from './ft/ft-small.svg';
-import ftConnectionIconURL from './ft/ft-illustration.svg';
-import ftConnectionSmallIconURL from './ft/ft-small.svg';
+import ftIconURL from './ft/logo_technika_rot_transparent.png';
+import ftInsetIconURL from './ft/btsmart_small.png';
+import ftConnectionIconURL from './ft/btsmart_small.png';
+import ftConnectionSmallIconURL from './ft/btsmart_small.png';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
