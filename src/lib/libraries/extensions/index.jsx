@@ -1,7 +1,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import ftIconURL from './ft/logo_technika_rot_transparent.png';
+import ftIconURL from './ft/btsmart_big.png';
 import ftInsetIconURL from './ft/btsmart_small.png';
 import ftConnectionIconURL from './ft/btsmart_small.png';
 import ftConnectionSmallIconURL from './ft/btsmart_small.png';
