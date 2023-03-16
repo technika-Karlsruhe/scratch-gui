@@ -1,10 +1,10 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import ftIconURL from './ft/btsmart_big.png';
-import ftInsetIconURL from './ft/btsmart_small.png';
-import ftConnectionIconURL from './ft/btsmart_small.png';
-import ftConnectionSmallIconURL from './ft/btsmart_small.png';
+import btsmartIconURL from './ft/btsmart_big.png';
+import btsmartInsetIconURL from './ft/btsmart_small.png';
+import btsmartConnectionIconURL from './ft/btsmart_small.png';
+import btsmartConnectionSmallIconURL from './ft/btsmart_small.png';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
@@ -56,8 +56,8 @@ export default [
         name: 'Bt-Smart',
         extensionId: 'btsmart',
         collaborator: 'technika',
-        iconURL: ftIconURL,
-        insetIconURL: ftInsetIconURL,
+        iconURL: btsmartIconURL,
+        insetIconURL: btsmartInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Connect your projects with the bt-smart."
@@ -71,8 +71,8 @@ export default [
         internetConnectionRequired: false,
         launchPeripheralConnectionFlow: false,
         useAutoScan: false,
-        connectionIconURL: ftConnectionIconURL,
-        connectionSmallIconURL: ftConnectionSmallIconURL,
+        connectionIconURL: btsmartConnectionIconURL,
+        connectionSmallIconURL: btsmartConnectionSmallIconURL,
         connectingMessage: (
             <FormattedMessage
                 defaultMessage="Connecting"
