@@ -54,7 +54,7 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 export default [
     {
         name: 'Bt-Smart',
-        extensionId: 'ft',
+        extensionId: 'btsmart',
         collaborator: 'technika',
         iconURL: ftIconURL,
         insetIconURL: ftInsetIconURL,
