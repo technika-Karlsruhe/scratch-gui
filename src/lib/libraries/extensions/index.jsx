@@ -6,6 +6,11 @@ import btsmartInsetIconURL from './ft/btsmart_small.png';
 import btsmartConnectionIconURL from './ft/btsmart_small.png';
 import btsmartConnectionSmallIconURL from './ft/btsmart_small.png';
 
+import btreceiverIconURL from './ft/btreceiver.png';
+import btreceiverInsetIconURL from './ft/btreceiver.png';
+import btreceiverConnectionIconURL from './ft/btreceiver.png';
+import btreceiverConnectionSmallIconURL from './ft/btreceiver.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -62,7 +67,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Connect your projects with the bt-smart."
                 description="Description for the 'fischertechnik' extension"
-                id="gui.extension.ft.description"
+                id="gui.extension.btsmart.description"
             />
         ),
         featured: true,
@@ -77,7 +82,37 @@ export default [
             <FormattedMessage
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
-                id="gui.extension.ft.connectingMessage"
+                id="gui.extension.btsmart.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'BT-Receiver',
+        extensionId: 'btreceiver',
+        collaborator: 'technika',
+        iconURL: btreceiverIconURL,
+        insetIconURL: btreceiverInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the bt-btreceiver."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.btreceiver.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: btreceiverConnectionIconURL,
+        connectionSmallIconURL: btreceiverConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.btreceiver.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
