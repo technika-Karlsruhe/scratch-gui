@@ -11,10 +11,10 @@ import btreceiverInsetIconURL from './ft/btreceiver.png';
 import btreceiverConnectionIconURL from './ft/btreceiver.png';
 import btreceiverConnectionSmallIconURL from './ft/btreceiver.png';
 
-import txtIconURL from './ft/txt.png';
-import txtInsetIconURL from './ft/txt.png';
-import txtConnectionIconURL from './ft/txt.png';
-import txtConnectionSmallIconURL from './ft/txt.png';
+import txtIconURL from './ft/txt_big.png';
+import txtInsetIconURL from './ft/txt_small.png';
+import txtConnectionIconURL from './ft/txt_small.png';
+import txtConnectionSmallIconURL from './ft/txt_small.png';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
