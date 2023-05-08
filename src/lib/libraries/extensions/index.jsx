@@ -11,6 +11,11 @@ import btreceiverInsetIconURL from './ft/btreceiver.png';
 import btreceiverConnectionIconURL from './ft/btreceiver.png';
 import btreceiverConnectionSmallIconURL from './ft/btreceiver.png';
 
+import txtIconURL from './ft/txt.png';
+import txtInsetIconURL from './ft/txt.png';
+import txtConnectionIconURL from './ft/txt.png';
+import txtConnectionSmallIconURL from './ft/txt.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -58,7 +63,7 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
     {
-        name: 'Bt-Smart',
+        name: 'BT-Smart',
         extensionId: 'btsmart',
         collaborator: 'technika',
         iconURL: btsmartIconURL,
@@ -113,6 +118,36 @@ export default [
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
                 id="gui.extension.btreceiver.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'TXT',
+        extensionId: 'txt',
+        collaborator: 'technika',
+        iconURL: txtIconURL,
+        insetIconURL: txtInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the TXT."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.txt.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: txtConnectionIconURL,
+        connectionSmallIconURL: txtConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.txt.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
