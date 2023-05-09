@@ -16,6 +16,11 @@ import txtInsetIconURL from './ft/txt_small.png';
 import txtConnectionIconURL from './ft/txt_small.png';
 import txtConnectionSmallIconURL from './ft/txt_small.png';
 
+import robbyIconURL from './ft/robby_big.png';
+import robbyInsetIconURL from './ft/robby_small.png';
+import robbyConnectionIconURL from './ft/robby_small.png';
+import robbyConnectionSmallIconURL from './ft/robby_small.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -100,7 +105,7 @@ export default [
         insetIconURL: btreceiverInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Connect your projects with the bt-btreceiver."
+                defaultMessage="Connect your projects with the bt-receiver."
                 description="Description for the 'fischertechnik' extension"
                 id="gui.extension.btreceiver.description"
             />
@@ -148,6 +153,36 @@ export default [
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
                 id="gui.extension.txt.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'Robby',
+        extensionId: 'robby',
+        collaborator: 'technika',
+        iconURL: robbyIconURL,
+        insetIconURL: robbyInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with Robby."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.robby.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: robbyConnectionIconURL,
+        connectionSmallIconURL: robbyConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.robby.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
