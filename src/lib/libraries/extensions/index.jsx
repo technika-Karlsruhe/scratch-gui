@@ -6,10 +6,10 @@ import btsmartInsetIconURL from './ft/btsmart_small.png';
 import btsmartConnectionIconURL from './ft/btsmart_small.png';
 import btsmartConnectionSmallIconURL from './ft/btsmart_small.png';
 
-import btreceiverIconURL from './ft/btreceiver.png';
-import btreceiverInsetIconURL from './ft/btreceiver.png';
-import btreceiverConnectionIconURL from './ft/btreceiver.png';
-import btreceiverConnectionSmallIconURL from './ft/btreceiver.png';
+import btreceiverIconURL from './ft/btreceiver_big.png';
+import btreceiverInsetIconURL from './ft/btreceiver_small.png';
+import btreceiverConnectionIconURL from './ft/btreceiver_small.png';
+import btreceiverConnectionSmallIconURL from './ft/btreceiver_small.png';
 
 import txtIconURL from './ft/txt_big.png';
 import txtInsetIconURL from './ft/txt_small.png';
