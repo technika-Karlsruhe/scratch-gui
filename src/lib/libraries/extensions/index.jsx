@@ -21,6 +21,11 @@ import robbyInsetIconURL from './ft/robby_small.png';
 import robbyConnectionIconURL from './ft/robby_small.png';
 import robbyConnectionSmallIconURL from './ft/robby_small.png';
 
+import txIconURL from './ft/tx_big.png';
+import txInsetIconURL from './ft/tx_small.png';
+import txConnectionIconURL from './ft/tx_small.png';
+import txConnectionSmallIconURL from './ft/tx_small.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -183,6 +188,36 @@ export default [
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
                 id="gui.extension.robby.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'TX',
+        extensionId: 'tx',
+        collaborator: 'technika',
+        iconURL: txIconURL,
+        insetIconURL: txInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with TX."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.tx.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: txConnectionIconURL,
+        connectionSmallIconURL: txConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.tx.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
