@@ -31,6 +31,11 @@ import txt40InsetIconURL from './ft/txt40_small.png';
 import txt40ConnectionIconURL from './ft/txt40_small.png';
 import txt40ConnectionSmallIconURL from './ft/txt40_small.png';
 
+import ltIconURL from './ft/lt_big.png';
+import ltInsetIconURL from './ft/lt_small.png';
+import ltConnectionIconURL from './ft/lt_small.png';
+import ltConnectionSmallIconURL from './ft/lt_small.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -253,6 +258,36 @@ export default [
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
                 id="gui.extension.txt40.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'LT',
+        extensionId: 'lt',
+        collaborator: 'technika',
+        iconURL: ltIconURL,
+        insetIconURL: ltInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with LT."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.lt.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: ltConnectionIconURL,
+        connectionSmallIconURL: ltConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.lt.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
