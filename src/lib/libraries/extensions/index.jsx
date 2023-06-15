@@ -36,6 +36,11 @@ import ltInsetIconURL from './ft/lt_small.png';
 import ltConnectionIconURL from './ft/lt_small.png';
 import ltConnectionSmallIconURL from './ft/lt_small.png';
 
+import ftduinoIconURL from './ft/ftduino_big.png';
+import ftduinoInsetIconURL from './ft/ftduino_small.png';
+import ftduinoConnectionIconURL from './ft/ftduino_small.png';
+import ftduinoConnectionSmallIconURL from './ft/ftduino_small.png';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -288,6 +293,36 @@ export default [
                 defaultMessage="Connecting"
                 description="Message to help people connect to their fischertechnik."
                 id="gui.extension.lt.connectingMessage"
+            />
+        ),
+        helpLink: 'https://technika-karlsruhe.github.io/'
+    },
+    {
+        name: 'ftduino',
+        extensionId: 'ftduino',
+        collaborator: 'technika',
+        iconURL: ftduinoIconURL,
+        insetIconURL: ftduinoInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with ftduino."
+                description="Description for the 'fischertechnik' extension"
+                id="gui.extension.ftduino.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectionIconURL: ftduinoConnectionIconURL,
+        connectionSmallIconURL: ftduinoConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their fischertechnik."
+                id="gui.extension.ftduino.connectingMessage"
             />
         ),
         helpLink: 'https://technika-karlsruhe.github.io/'
