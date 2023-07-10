@@ -3,6 +3,350 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.53](https://github.com/LLK/scratch-gui/compare/v2.0.52...v2.0.53) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.84 ([83468a3](https://github.com/LLK/scratch-gui/commit/83468a37226330acf4720c82e9a6c81bc4e54854))
+
+## [2.0.52](https://github.com/LLK/scratch-gui/compare/v2.0.51...v2.0.52) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.16 ([04bb2ab](https://github.com/LLK/scratch-gui/commit/04bb2abe334cb5dd3da5b9ccf1f5f3f70bb5df96))
+
+## [2.0.51](https://github.com/LLK/scratch-gui/compare/v2.0.50...v2.0.51) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230709073927 ([95b3977](https://github.com/LLK/scratch-gui/commit/95b39773dc081dec229f3a93c1440375932b493e))
+
+## [2.0.50](https://github.com/LLK/scratch-gui/compare/v2.0.49...v2.0.50) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230709032152 ([d3f9f17](https://github.com/LLK/scratch-gui/commit/d3f9f17fc3b6b7a39541b3aa849d681ff616259e))
+
+## [2.0.49](https://github.com/LLK/scratch-gui/compare/v2.0.48...v2.0.49) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.83 ([410f342](https://github.com/LLK/scratch-gui/commit/410f3426e817b25dec5bc14e7c3e55ebd71e3546))
+
+## [2.0.48](https://github.com/LLK/scratch-gui/compare/v2.0.47...v2.0.48) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.15 ([9fd1f3e](https://github.com/LLK/scratch-gui/commit/9fd1f3e32441f32daf428254c2641211ea0a81fa))
+
+## [2.0.47](https://github.com/LLK/scratch-gui/compare/v2.0.46...v2.0.47) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230707073425 ([7cac753](https://github.com/LLK/scratch-gui/commit/7cac75304b0b262fcdb7af34dd0f5ffc19278464))
+
+## [2.0.46](https://github.com/LLK/scratch-gui/compare/v2.0.45...v2.0.46) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230707032150 ([aae8366](https://github.com/LLK/scratch-gui/commit/aae83666961f26a56ec65dbc6b23405dcb61dc1b))
+
+## [2.0.45](https://github.com/LLK/scratch-gui/compare/v2.0.44...v2.0.45) (2023-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.82 ([88a8b94](https://github.com/LLK/scratch-gui/commit/88a8b944911869c0a9e1aca8c8aec19b42e2124a))
+
+## [2.0.44](https://github.com/LLK/scratch-gui/compare/v2.0.43...v2.0.44) (2023-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.14 ([c55997e](https://github.com/LLK/scratch-gui/commit/c55997efb6e5afc219ec6d04f42d5c569f34ffe2))
+
+## [2.0.43](https://github.com/LLK/scratch-gui/compare/v2.0.42...v2.0.43) (2023-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230706063438 ([a74d8ef](https://github.com/LLK/scratch-gui/commit/a74d8ef74bc838feb69bfe162aa7696da7ee0ef4))
+
+## [2.0.42](https://github.com/LLK/scratch-gui/compare/v2.0.41...v2.0.42) (2023-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230706032213 ([5da2ed3](https://github.com/LLK/scratch-gui/commit/5da2ed3dd7594e82f7f88a87cf777c334a9343e1))
+
+## [2.0.41](https://github.com/LLK/scratch-gui/compare/v2.0.40...v2.0.41) (2023-07-05)
+
+
+### Bug Fixes
+
+* support browsers that don't implement 'prefers-contrast' media query ([04a8de2](https://github.com/LLK/scratch-gui/commit/04a8de21bb895d3b5515939d4da5475b2c3fdb3d))
+
+## [2.0.40](https://github.com/LLK/scratch-gui/compare/v2.0.39...v2.0.40) (2023-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.81 ([0396c54](https://github.com/LLK/scratch-gui/commit/0396c54b64e28ca9ff328ce097ef706cb5a47a2c))
+
+## [2.0.39](https://github.com/LLK/scratch-gui/compare/v2.0.38...v2.0.39) (2023-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.13 ([428eaa1](https://github.com/LLK/scratch-gui/commit/428eaa1996fcb186763fcecc0bff512d71fb9b98))
+
+## [2.0.38](https://github.com/LLK/scratch-gui/compare/v2.0.37...v2.0.38) (2023-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230704074535 ([8ee0717](https://github.com/LLK/scratch-gui/commit/8ee071741836d46df3e02498231b50859a86a9af))
+
+## [2.0.37](https://github.com/LLK/scratch-gui/compare/v2.0.36...v2.0.37) (2023-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230704032156 ([e8f74cc](https://github.com/LLK/scratch-gui/commit/e8f74cc21b83b1a9a2ee91fa78d426db224586dd))
+
+## [2.0.36](https://github.com/LLK/scratch-gui/compare/v2.0.35...v2.0.36) (2023-07-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.12 ([c9164c2](https://github.com/LLK/scratch-gui/commit/c9164c2f227655a7b9c325ab3c14bf6fdb839981))
+
+## [2.0.35](https://github.com/LLK/scratch-gui/compare/v2.0.34...v2.0.35) (2023-07-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.80 ([6c38eb6](https://github.com/LLK/scratch-gui/commit/6c38eb645da81a1231dfe58cd23dd4814a3a06b6))
+
+## [2.0.34](https://github.com/LLK/scratch-gui/compare/v2.0.33...v2.0.34) (2023-07-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230703063654 ([eb2d272](https://github.com/LLK/scratch-gui/commit/eb2d272b2cd624869e0e13413d83e7c4d6121fc2))
+
+## [2.0.33](https://github.com/LLK/scratch-gui/compare/v2.0.32...v2.0.33) (2023-07-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230703032155 ([4b35160](https://github.com/LLK/scratch-gui/commit/4b351603aaab8616b5f7a36eac199fa5652368a8))
+
+## [2.0.32](https://github.com/LLK/scratch-gui/compare/v2.0.31...v2.0.32) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.79 ([74bb771](https://github.com/LLK/scratch-gui/commit/74bb771004cac53080c43260b7393009d3f58b74))
+
+## [2.0.31](https://github.com/LLK/scratch-gui/compare/v2.0.30...v2.0.31) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230702074136 ([0411bd1](https://github.com/LLK/scratch-gui/commit/0411bd13df51d6f2ba6f908b0716edab6228d769))
+
+## [2.0.30](https://github.com/LLK/scratch-gui/compare/v2.0.29...v2.0.30) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.11 ([21f121a](https://github.com/LLK/scratch-gui/commit/21f121a2bec9a9bf27f396ae4eab727313a280ed))
+
+## [2.0.29](https://github.com/LLK/scratch-gui/compare/v2.0.28...v2.0.29) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230702032144 ([04cb0c7](https://github.com/LLK/scratch-gui/commit/04cb0c7d9b97db10e0f100e180dcd9db3117276b))
+
+## [2.0.28](https://github.com/LLK/scratch-gui/compare/v2.0.27...v2.0.28) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-vm to v1.5.78 ([fb82d80](https://github.com/LLK/scratch-gui/commit/fb82d80e828958483ea7093fe4d4bc06c84f1f80))
+
+## [2.0.27](https://github.com/LLK/scratch-gui/compare/v2.0.26...v2.0.27) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-semantic-release-config to v1.0.8 ([d3d8a92](https://github.com/LLK/scratch-gui/commit/d3d8a92b8671e93005e3b4a339b45e0d7c1c3024))
+
+## [2.0.26](https://github.com/LLK/scratch-gui/compare/v2.0.25...v2.0.26) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.10 ([c1262d0](https://github.com/LLK/scratch-gui/commit/c1262d07541431006c49b3e75b1f20a5379bc838))
+
+## [2.0.25](https://github.com/LLK/scratch-gui/compare/v2.0.24...v2.0.25) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230701032155 ([6c9a52c](https://github.com/LLK/scratch-gui/commit/6c9a52cf071673f97851f99c35535f5128dfd2c3))
+
+## [2.0.24](https://github.com/LLK/scratch-gui/compare/v2.0.23...v2.0.24) (2023-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230701102434 ([2622414](https://github.com/LLK/scratch-gui/commit/26224146d23ee738f54ba9c27fc361ab449f3f6f))
+
+## [2.0.23](https://github.com/LLK/scratch-gui/compare/v2.0.22...v2.0.23) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.8 ([d6779f7](https://github.com/LLK/scratch-gui/commit/d6779f7da3758dff217f6d75f8b7e41b8a66a9db))
+
+## [2.0.22](https://github.com/LLK/scratch-gui/compare/v2.0.21...v2.0.22) (2023-06-30)
+
+
+### Bug Fixes
+
+* trigger release for GA4 ([c023fe7](https://github.com/LLK/scratch-gui/commit/c023fe77b49110ff6dec5aacf57c7a3c8e215526))
+
+## [2.0.21](https://github.com/LLK/scratch-gui/compare/v2.0.20...v2.0.21) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230630075614 ([eaddcc9](https://github.com/LLK/scratch-gui/commit/eaddcc926db9e4c140939d8c305c4f9194bf7cb3))
+
+## [2.0.20](https://github.com/LLK/scratch-gui/compare/v2.0.19...v2.0.20) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230630032209 ([c10f478](https://github.com/LLK/scratch-gui/commit/c10f478c9668cd15693573245891d44d8c46d829))
+
+## [2.0.19](https://github.com/LLK/scratch-gui/compare/v2.0.18...v2.0.19) (2023-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.7 ([25c5e69](https://github.com/LLK/scratch-gui/commit/25c5e695a3d7bc5fb920a5adccb04eaf860348ca))
+
+## [2.0.18](https://github.com/LLK/scratch-gui/compare/v2.0.17...v2.0.18) (2023-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230629085902 ([480ae6d](https://github.com/LLK/scratch-gui/commit/480ae6d6139209086f5d46585d69ecf03147054e))
+
+## [2.0.17](https://github.com/LLK/scratch-gui/compare/v2.0.16...v2.0.17) (2023-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230629032156 ([fc9a485](https://github.com/LLK/scratch-gui/commit/fc9a485cb05e829d3b607120b3b75429601975ce))
+
+## [2.0.16](https://github.com/LLK/scratch-gui/compare/v2.0.15...v2.0.16) (2023-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.6 ([566fc01](https://github.com/LLK/scratch-gui/commit/566fc01c8c028553138d7ba08306986fd10200af))
+
+## [2.0.15](https://github.com/LLK/scratch-gui/compare/v2.0.14...v2.0.15) (2023-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230628075940 ([cd12371](https://github.com/LLK/scratch-gui/commit/cd123717ee4bdc19cc235941a61ddf8655642e0a))
+
+## [2.0.14](https://github.com/LLK/scratch-gui/compare/v2.0.13...v2.0.14) (2023-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-l10n to v3.15.20230628032227 ([433e280](https://github.com/LLK/scratch-gui/commit/433e28008993461aabd555deac85a4d1bc2c370c))
+
+## [2.0.13](https://github.com/LLK/scratch-gui/compare/v2.0.12...v2.0.13) (2023-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.5 ([656a334](https://github.com/LLK/scratch-gui/commit/656a334cc54d2a82a9e6d720e51b95806b465b84))
+
+## [2.0.12](https://github.com/LLK/scratch-gui/compare/v2.0.11...v2.0.12) (2023-06-27)
+
+
+### Bug Fixes
+
+* correct localization integration test due to translated label ([f74bdeb](https://github.com/LLK/scratch-gui/commit/f74bdeb233ffbb3cbdef4f7d141c4398429b48f1))
+* **deps:** update dependency scratch-l10n to v3.15.20230627032203 ([d93806e](https://github.com/LLK/scratch-gui/commit/d93806e72602ec17abcdccc03f5abb86dedfe04d))
+
+## [2.0.11](https://github.com/LLK/scratch-gui/compare/v2.0.10...v2.0.11) (2023-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230627082243 ([2ac680f](https://github.com/LLK/scratch-gui/commit/2ac680f03b7702ab4cd5334ef329dfc3b274f038))
+
+## [2.0.10](https://github.com/LLK/scratch-gui/compare/v2.0.9...v2.0.10) (2023-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230626121902 ([c491f2d](https://github.com/LLK/scratch-gui/commit/c491f2d7e3f511dd508c0a9d726e3f7e65cef767))
+
+## [2.0.9](https://github.com/LLK/scratch-gui/compare/v2.0.8...v2.0.9) (2023-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.4 ([207200f](https://github.com/LLK/scratch-gui/commit/207200fde822de5ad478c46875da023dac8fe8ce))
+
+## [2.0.8](https://github.com/LLK/scratch-gui/compare/v2.0.7...v2.0.8) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.3 ([df2b60e](https://github.com/LLK/scratch-gui/commit/df2b60ed846421a66003ce2b41e5894a4e5a7937))
+
+## [2.0.7](https://github.com/LLK/scratch-gui/compare/v2.0.6...v2.0.7) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230623102553 ([cae68c1](https://github.com/LLK/scratch-gui/commit/cae68c1ddb1aa7582db190df2d44289d4c04c01f))
+
+## [2.0.6](https://github.com/LLK/scratch-gui/compare/v2.0.5...v2.0.6) (2023-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-paint to v2.0.2 ([0c10d76](https://github.com/LLK/scratch-gui/commit/0c10d76e6b823f74cd97f1f0c8d5a1b119ce1068))
+
+## [2.0.5](https://github.com/LLK/scratch-gui/compare/v2.0.4...v2.0.5) (2023-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scratch-blocks to v0.2.0-prerelease.20230622090140 ([76e44ac](https://github.com/LLK/scratch-gui/commit/76e44ac89ca3a043a100973ba1fbe03bf2f56e5b))
+
 ## [2.0.4](https://github.com/LLK/scratch-gui/compare/v2.0.3...v2.0.4) (2023-06-21)
 
 
