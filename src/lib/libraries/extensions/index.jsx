@@ -149,7 +149,7 @@ export default [
     },
     {
         name: 'TXT',
-        extensionId: 'txt',
+        extensionId: 'ftxt',
         collaborator: 'technika',
         iconURL: txtIconURL,
         insetIconURL: txtInsetIconURL,
